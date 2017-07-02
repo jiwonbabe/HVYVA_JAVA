@@ -1,0 +1,21 @@
+
+
+
+/titlestart/
+Array
+/titleend/
+
+/questionstart/
+public class sum {
+int[] values = {1, 9, 4, 6, 10, 32, 8, 7};
+int sum = 0;
+
+public static void main(String[] args){
+for(int i = 0; i < values.lenghth;i++){
+	sum+= values[i];
+
+	}
+	System.out.println("Sum: " + sum);
+	}
+}
+/questionend/

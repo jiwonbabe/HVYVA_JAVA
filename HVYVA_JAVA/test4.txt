@@ -1,0 +1,38 @@
+
+
+
+/titlestart/
+Create object and use
+/titleend/
+/questionstart/
+class Character{
+
+	String name;
+	int hp = 100;
+
+	
+	void punch(){
+	System.out.println(this.name + "is heated by punch!");
+	character.hp -= 5;
+	{
+	
+	void weaponAttack(){
+	System.out.println(this.name + "is heated by weapon attack!");
+	character.hp -= 10;
+	}
+	
+class MainTest{
+public static void main(String args[]){
+
+	Character a = new Character();
+	Character b = new Character();
+	a.name = "John";
+	b.name = "Bob";
+	a.punch();
+	b.weaponAttack();
+	System.out.println(a.name+"'s hp is: "+a.hp);
+	System.out.println(b.name+"'s hp is: "+b.hp);
+	
+	
+	
+/questionend/

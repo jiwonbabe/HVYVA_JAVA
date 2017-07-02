@@ -1,0 +1,4 @@
+John is heated by punch!
+Bob is heated by wapon attack!
+John's hp is: 95
+Bob's hp is: 90

@@ -1,0 +1,22 @@
+
+
+
+/titlestart/
+conditionals : if, else if , switch
+/titleend/
+/questionstart/
+public class Metro {
+    public static void printRole(int age) {
+        if (age > 18) { 
+            System.out.println("He is adult");
+        }
+        else System.out.println("He is child")
+    }
+
+    public static void main(String[] args) {
+        printRole(20); 
+        printRole(15);  
+        printRole(10);
+    }
+}
+/questionend/
